@@ -45,3 +45,6 @@ exports.getTwitterAuthFromEnv = function () {
 
 exports.lodashMixins = require('./lib/lodash-mixins.js');
 exports.twitMixins = require('./lib/twit-mixins.js');
+
+exports.Cache = require('./lib/cache.js');
+exports.Used = require('./lib/used.js');
