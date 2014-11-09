@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/beaugunderson/node-bot-utilities.svg?branch=master)](https://travis-ci.org/beaugunderson/node-bot-utilities)
+
 ## bot-utilities
 
 Utilities for Twitter bots.
