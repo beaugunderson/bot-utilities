@@ -23,10 +23,12 @@ exports.heyYou = function (optionalScreenName) {
 };
 
 var IMAGE_BOTS = exports.IMAGE_BOTS = [
-  'plzrevisit',
-  'pixelsorter',
   'a_quilt_bot',
-  'badpng'
+  'badpng',
+  'cgagraphics',
+  'Lowpolybot',
+  'pixelsorter',
+  'plzrevisit'
 ];
 
 exports.imageBot = function () {
