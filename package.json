@@ -1,6 +1,6 @@
 {
   "name": "bot-utilities",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utilities for Twitter bots.",
   "main": "bot-utilities.js",
   "scripts": {
