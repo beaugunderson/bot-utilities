@@ -2,6 +2,10 @@
 
 ## bot-utilities
 
+```sh
+$ npm install --save bot-utilities
+```
+
 Utilities for Twitter bots.
 
 - `heyYou()`, a function that generates strings like `→ @username`
