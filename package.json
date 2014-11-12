@@ -1,6 +1,6 @@
 {
   "name": "bot-utilities",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Utilities for Twitter bots.",
   "main": "bot-utilities.js",
   "scripts": {
@@ -15,5 +15,17 @@
   "devDependencies": {
     "mocha": "^1.21.5",
     "chai": "^1.9.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beaugunderson/node-bot-utilities.git"
+  },
+  "keywords": [
+    "twitter",
+    "bots"
+  ],
+  "bugs": {
+    "url": "https://github.com/beaugunderson/node-bot-utilities/issues"
+  },
+  "homepage": "https://github.com/beaugunderson/node-bot-utilities"
 }
