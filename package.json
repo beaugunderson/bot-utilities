@@ -1,6 +1,6 @@
 {
   "name": "bot-utilities",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Utilities for Twitter bots.",
   "main": "bot-utilities.js",
   "scripts": {
@@ -13,8 +13,10 @@
     "request": "^2.45.0"
   },
   "devDependencies": {
+    "chai": "^1.9.2",
+    "dotenv": "^0.4.0",
     "mocha": "^1.21.5",
-    "chai": "^1.9.2"
+    "twit": "^1.1.18"
   },
   "repository": {
     "type": "git",
