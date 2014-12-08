@@ -1,4 +1,8 @@
 language: node_js
 node_js:
-   - 0.10
-   - 0.11
+- 0.10
+- 0.11
+- 0.12
+before_install:
+- openssl aes-256-cbc -K $encrypted_6d56d8fe847c_key -iv $encrypted_6d56d8fe847c_iv
+  -in .env.enc -out .env -d
