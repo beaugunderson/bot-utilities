@@ -1,5 +1,6 @@
 'use strict';
 
+var exit = require('exit');
 var _ = require('lodash');
 
 var HEY_YOU = exports.HEY_YOU = [
@@ -42,6 +43,20 @@ exports.getTwitterAuthFromEnv = function () {
     consumer_secret: process.env.CONSUMER_SECRET,
     access_token: process.env.ACCESS_TOKEN,
     access_token_secret: process.env.ACCESS_TOKEN_SECRET
+  };
+};
+
+exports.randomCommand = function (command) {
+  return function (options) {
+    if (options.random) {
+      if (_.percentChance(98)) {
+        console.log('Skipping...');
+
+        exit(0);
+      }
+    }
+
+    command(options);
   };
 };
 
