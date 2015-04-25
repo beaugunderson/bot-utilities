@@ -3,6 +3,11 @@
 var exit = require('exit');
 var _ = require('lodash');
 
+exports.lodashMixins = require('./lib/lodash-mixins.js');
+exports.twitMixins = require('./lib/twit-mixins.js');
+
+_.mixin(exports.lodashMixins);
+
 var HEY_YOU = exports.HEY_YOU = [
   '→', // Right arrow
   '👋', // Waving hand
@@ -59,6 +64,3 @@ exports.randomCommand = function (command) {
     command(options);
   };
 };
-
-exports.lodashMixins = require('./lib/lodash-mixins.js');
-exports.twitMixins = require('./lib/twit-mixins.js');
