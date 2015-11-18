@@ -1,6 +1,6 @@
 'use strict';
 
-var exit = require('exit');
+exports.exit = require('exit');
 var _ = require('lodash');
 
 exports.lodashMixins = require('./lib/lodash-mixins.js');
@@ -51,13 +51,11 @@ exports.getTwitterAuthFromEnv = function () {
   };
 };
 
-exports.randomCommand = function (command) {
+exports.randomCommand = function (command, percentage) {
   return function (options) {
     if (options.random) {
-      if (_.percentChance(98)) {
-        console.log('Skipping...');
-
-        exit(0);
+      if (_.percentChance(percentage || 98)) {
+        return exports.exit(0);
       }
     }
 
