@@ -29,12 +29,24 @@ exports.heyYou = function (optionalScreenName) {
 };
 
 var IMAGE_BOTS = exports.IMAGE_BOTS = [
+  'BMPBug',
+  'IMG2ASCII',
+  'JPGglitchbot',
+  'Lowpolybot',
+  // 'UShouldFrameIt',
+  'WordPadBot',
   'a_quilt_bot',
   'badpng',
   'cgagraphics',
-  'Lowpolybot',
+  'imgblender',
+  'imgblur',
+  'imgquilt',
+  'imgshear',
+  'imgzoombot',
+  'kaleid_o_bot',
+  'kaleidobot',
   'pixelsorter',
-  'plzrevisit'
+  'plaidbot'
 ];
 
 exports.imageBot = function () {

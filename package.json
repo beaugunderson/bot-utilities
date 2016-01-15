@@ -1,6 +1,6 @@
 {
   "name": "bot-utilities",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "Utilities for Twitter bots.",
   "main": "bot-utilities.js",
   "scripts": {
@@ -10,14 +10,14 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "exit": "^0.1.2",
-    "lodash": "^3.9.3",
+    "lodash": "^4.0.0",
     "request": "^2.57.0"
   },
   "devDependencies": {
     "chai": "^3.0.0",
     "dotenv": "^1.1.0",
     "mocha": "^2.2.5",
-    "twit": "^1.1.20"
+    "twit": "^2.1.1"
   },
   "repository": {
     "type": "git",
